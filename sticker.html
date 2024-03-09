@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Sticker</title>
+</head>
+<body>
+    <h1>Selección de Sticker</h1>
+    <div id="sticker">
+        <div>
+            <img id="image1" src="assets/img/sticker1.jpg" alt="">
+            <input type="number" id="sticker1" min="0" max="10">
+        </div>
+
+        <div>
+            <img src="assets/img/sticker2.jpg" alt="">
+            <input type="number" id="sticker2" min="0" max="10">
+        </div>
+
+        <div>
+            <img src="assets/img/sticker3.jpg" alt="">
+            <input type="number" id="sticker3" min="0" max="10">
+        </div>
+    </div>
+    
+    <div class="btn">
+        <button  onclick="calcularStickers()">Calcular</button>
+        <p id="resultado"></p>
+    </div>
+
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
