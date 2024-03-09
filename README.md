@@ -3,7 +3,7 @@
 
 Desafios utilizando condicionales.
 
-
+Para acceder a cada html favor colocar despues de /sticker y /password.
 
 
 
